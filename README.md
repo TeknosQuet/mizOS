@@ -43,7 +43,7 @@ The **miz** script manages the following:
 
 **Step 8** - Run `git clone https://github.com/Mizosu97/mizOS` to install the mizOS source code, then run `cd mizOS`.
 
-**Step 9** - Run `./install` to begin the installation. If it gives a permissions error, run `chmod +x install` and try again.
+**Step 9** - Run `./install` to begin the installation. If it gives a permission error, run `chmod +x install` and try again.
 
 ## Section 3. **miz** Documentation
 
@@ -54,9 +54,9 @@ The **miz** script has 7 main arguments. Being **system**, **service**, **pac**,
 - **system** manages mizOS system updates.
 - **service** manages services (runit).
 - **pac** manages pacman packages.
-- **aur** manages aur packages (yay).
-- **desktop** manages Desktop Environment installation.
-- **wm** manages Window Manager installation.
+- **aur** manages AUR packages (yay).
+- **desktop** manages desktop environment installation.
+- **wm** manages window manager installation.
 - **info** displays information about mizOS.
 
 ###### 1. miz system
@@ -82,31 +82,31 @@ The **miz** script has 7 main arguments. Being **system**, **service**, **pac**,
 `miz service list linked` - List the services that have been symlinked to `/run/runit/service/`.
 
 ###### 3. miz pac
-`miz pac fetch <package>` - Installs that package.
+`miz pac fetch <package>` - Installs the package of choice.
 
-`miz pac remove <package>` - Removes that package.
+`miz pac remove <package>` - Removes the package of choice.
 
 `miz pac sync` - Syncs the repos.
 
 ###### 4. miz aur
-`miz aur fetch <package>` - Installs that AUR package.
+`miz aur fetch <package>` - Installs the AUR package of choice.
 
-`miz aur remove <package>` - Removes that AUR package.
+`miz aur remove <package>` - Removes the AUR package of choice.
 
 `miz aur update` - Upgrades all AUR packages.
 
 ###### 5. miz desktop
-`miz desktop list` - Lists the Desktop Environments you can install.
+`miz desktop list` - Lists the desktop environments you can install.
 
-`miz desktop fetch <desktop>` - Installs that Desktop Environment.
+`miz desktop fetch <desktop>` - Installs the desktop environment of choice.
 
 ###### 6. miz wm
-`miz wm list` - Lists the Window Managers you can install.
+`miz wm list` - Lists the window managers you can install.
 
-`miz wm fetch <wm>` - Installs that Window Manager.
+`miz wm fetch <wm>` - Installs the window manager of choice.
 
 ###### 7. miz info
-`miz info help` - Links you to the GitHub.
+`miz info help` - Links you to the official GitHub page.
 
 `miz info creator` - Links you to the [sudev website](https://sudev.neocities.org).
 
@@ -114,7 +114,7 @@ The **miz** script has 7 main arguments. Being **system**, **service**, **pac**,
 
 When i3-gaps first runs, it will ask to set either the Windows or Alt key as the MOD key. Remember the key you choose.
 
-If you dont know how to navigate i3-gaps, follow the tutorial [here](https://i3wm.org/docs/refcard.html).
+If you don't know how to navigate i3-gaps, follow the tutorial [here](https://i3wm.org/docs/refcard.html).
 
 Changes mizOS makes to i3-gaps:
 - Catppuccin color scheme.
